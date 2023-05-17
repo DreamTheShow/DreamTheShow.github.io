@@ -1,0 +1,419 @@
+@charset "utf-8";
+/* CSS Document */
+#toTopBtn {
+     position: fixed;
+    bottom: 26px;
+    right: 39px;
+    z-index: 98;
+    padding: 21px;
+    background-color: #05152c;
+}
+
+.js .cd-top--fade-out {
+    opacity: .5;
+}
+
+.js .cd-top--is-visible {
+    visibility: visible;
+    opacity: 1;
+}
+
+.js .cd-top {
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .3s,visibility .3s,background-color .3s;
+}
+
+.cd-top {
+    position: fixed;
+    bottom: 20px;
+    bottom: var(--cd-back-to-top-margin);
+    right: 20px;
+    right: var(--cd-back-to-top-margin);
+    display: inline-block;
+    height: 40px;
+    height: var(--cd-back-to-top-size);
+    width: 40px;
+    width: var(--cd-back-to-top-size);
+    box-shadow: 0 0 10px rgba(0,0,0,.05) !important;
+    background: url(https://res.cloudinary.com/dxfq3iotg/image/upload/v1571057658/cd-top-arrow.svg) no-repeat center 50%;
+    background-color: hsla(5,76%,62%,.8);
+    background-color: hsla(var(--cd-color-3-h),var(--cd-color-3-s),var(--cd-color-3-l),0.8);
+}
+
+.textdesign {
+	color: aliceblue;
+}
+.section-title {
+  text-align: left;
+  font-family: Century Gothic;
+  font-size: 70px;
+  font-weight: bold;
+  color: white;
+	margin-bottom: 3%;
+	margin-left: 15%;
+}
+
+#myVideo {
+  right: 0;
+  width: 100%;
+  min-height: 100%;
+	margin-bottom: -6px;
+}
+
+/* HEADER */
+header {
+	position: sticky; top: 0;
+	z-index:9999999;
+}
+
+.header-item{
+	font-family: Century Gothic;
+}
+
+#header_icon {
+	width: 70px;
+}
+
+#header_booking {
+	width: 35px;
+}
+
+/* HOMEPAGE */
+.homepage_poster {
+	width: 100%;
+}
+
+.backgroundimage {
+  background-image: url("images/webbackground_new2.png");
+  background-size: 100%;
+}
+
+/* Section 1: STORY */
+.learnmore-btn {
+	text-align: center;
+	font-family: Century Gothic;
+	font-size: 30px;
+	color: white;
+}
+
+.homepage_story1 {
+	text-align: center;
+	color: aliceblue;
+	font-size: 40px;
+	margin-bottom: 100px;
+}
+
+.homepage_story2 {
+	text-align: center;
+	color: aliceblue;
+	font-size: 70px;
+	margin-bottom: 300px;
+}
+
+/* Section 2: DETAILS */
+#details {
+	margin: 20px 15% 20px 15%;
+	background: rgba(87,108,138,0.4)
+}
+
+#sub-tit {
+	font-family: Century Gothic;
+	font-size: 70px;
+	color: white;
+	margin-right: 70%;
+}
+
+.infotext h3 {
+	font-size: 50px;
+}
+
+.infotext {
+	font-family: Century Gothic;
+	font-size: 35px;
+	color: white;
+	padding: 30px 30px 30px 30px;
+}
+
+#map {
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+/* Section 3 */
+.youtube {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  /* 16:9 Aspect Ratio */
+}
+
+.responsive-iframe {
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.youtube {
+	text-align: center;
+}
+
+/* FOOTER */
+footer {
+	width: 100%;
+}
+
+footer a {
+	color: black;
+}
+
+.footerfront {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+#footerbg {
+	background: #dee2ed;
+}
+
+.footer_socialtext {
+  display: inline;
+	font-size: 20px;
+}
+
+#footer_iglogo, #footer_fblogo {
+  width: 10%;
+}
+
+#footer_maillogo {
+  width: 12%;
+}
+
+.footer-slimtxt{
+	font-family: Century Gothic;
+}
+
+.footer-tit{
+	color: black;
+}
+/* HOMEPAGE */
+
+/* Contact Us */
+.contactus-social {
+	margin-left: 14%;
+}
+
+a {
+	color: aliceblue;
+}
+
+.contactus_socialtext {
+	display: inline;
+}
+
+.contactus-infotext1 {
+	font-family: Century Gothic;
+	font-size: 40px;
+	color: aliceblue;
+}
+
+.contactus-infotext2 {
+	font-family: Century Gothic;
+	font-size: 20px;
+	color: aliceblue;
+}
+
+#contactus_iglogo {
+	width: 20%;
+}
+
+#contactus_fblogo {
+	width: 20%;
+}
+
+/* Design */
+.ele-txt {
+	text-align: center;
+	margin-bottom: 10%;
+	color: aliceblue;
+}
+
+.ele-table {
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+.design-infotext1 {
+	font-size: 40px;
+	color: #c0dcf6;
+}
+
+#design-elements {
+	margin-bottom: 10%;
+}
+
+#design{
+	padding-top: 20%;
+	color: antiquewhite;
+}
+
+.details-head {
+	font-size: 50px;
+}
+
+.details-txt {
+	font-size: 30px;
+}
+
+#music-logo {
+    width: 5%;
+}
+
+#Details {
+	color: aliceblue;
+	margin-bottom: 15%;
+}
+
+#dance, #animation, #effects, #music {
+	width: 100%;
+}
+
+.design-elements-img {
+	width: 100%;
+	padding-left: 20%;
+	padding-right: 20%;
+}
+
+/* Storyline */
+.story-subtitle {
+  text-align: center;
+  font-family: Century Gothic;
+  font-size: 60px;
+  font-weight: bold;
+  color: white;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.storytext {
+	text-align:left;
+  font-family: Century Gothic;
+  font-size: 35px;
+  color: white;
+	margin: 50px 15% 100px 15%;
+}
+
+.storyline_img {
+	display: block;
+  	margin-left: auto;
+ 	margin-right: auto;
+ 	width: 70%;
+}
+
+/* Crew */
+.crew-table {
+	margin-left: 25%;
+	margin-right: 25%;
+}
+
+.crew-title {
+	font-size: 50px;
+	color: aliceblue;
+	padding-top: 25%;
+}
+
+
+.crew-img {
+	width: 400px;
+	height: auto;
+}
+
+.members-txt {
+	color: aliceblue;
+	font-size: 30px;
+}
+
+/* booking */
+.booking-center {
+	text-align: center;
+}
+
+.booking-title {
+	font-family: Century Gothic;
+}
+
+.booking-subtitle {
+	font-family: Century Gothic;
+}
+
+.booking-btn {
+	margin-left: 10px;
+}
+
+#booking-map {
+	width: 400px;
+}
+
+.blue-link {
+	color: #24a0ed;
+}
+
+/* gallery */
+#gallery {
+	padding-bottom: 5px;
+}
+
+.img-gallery {
+	width: 80%;
+	margin: 100px auto 50px;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+	grid-gap: 30px;
+}
+
+.img-gallery img {
+	width: 100%;
+	cursor: pointer;
+}
+
+.img-gallery img:hover {
+	transform: scale(0.9);
+	border-radius: 20px;
+	box-shadow: 0 32px 75px rgba(68,77,136, 0.2);
+}
+
+.full-img {
+	z-index: 100;
+	width: 100%;
+	height: 100vh;
+	background: rgba(0,0,0,0.9);
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: none;
+	align-items: center;
+	justify-content: center;
+}
+
+.full-img img {
+	width: 90%;
+	max-width: 1200px;
+}
+
+.full-img span {
+	z-index: 9999999;
+	position: absolute;
+	top: 8%;
+	right: 8%;
+	font-size: 50px;
+	cursor: pointer;
+}
