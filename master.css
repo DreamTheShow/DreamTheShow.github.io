@@ -55,7 +55,7 @@
 }
 
 @font-face {
-	font-family: Bahnschrift;
+	font-family: 'Bahnschrift';
 	src: url('fonts/Bahnschrift.eot') format('embedded-opentype');
 	/* IE9 + later */
 	src: url('fonts/Bahnschrift.ttf') format('truetype'),
@@ -67,20 +67,20 @@
 }
 
 @font-face {
-	font-family: Century Gothic;
+	font-family: 'CenturyGothic';
 	src: url('fonts/CenturyGothic.eot') format('embedded-opentype');
 	/* IE9 + later */
 	src: url('fonts/CenturyGothic.ttf') format('truetype'),
 	/* Safari og iOS, Chrome, Android, Firefox and Opera except Opera Mini  */
 		url('fonts/CenturyGothic.woff') format('woff'),
 	/* Newer browsers */
-		url('fonts/CenturyGothic.svg#Century Gothic') format('svg');
+		url('fonts/CenturyGothic.svg#CenturyGothic') format('svg');
 	/*IE og iOS earlier than version 5*/
 }
 
 .section-title {
 	text-align: left;
-	font-family: Century Gothic;
+	font-family: 'CenturyGothic' !important;
 	font-size: 70px;
 	font-weight: bold;
 	color: white;
@@ -105,7 +105,7 @@ header {
 }
 
 .header-item {
-	font-family: Century Gothic;
+	font-family: 'CenturyGothic' !important;
 	white-space: nowrap;
 }
 
@@ -130,7 +130,7 @@ header {
 /* Section 1: STORY */
 .learnmore-btn {
 	text-align: center;
-	font-family: Century Gothic;
+	font-family: 'CenturyGothic' !important;
 	font-size: 30px;
 	color: white;
 }
@@ -139,7 +139,7 @@ header {
 	text-align: center;
 	color: aliceblue;
 	font-size: 30px;
-	font-family: Bahnschrift;
+	font-family: 'Bahnschrift' !important;
 	font-weight: 300;
 	margin-bottom: 50px;
 }
@@ -148,7 +148,7 @@ header {
 	text-align: center;
 	color: aliceblue;
 	font-size: 50px;
-	font-family: Bahnschrift;
+	font-family: 'Bahnschrift' !important;
 	font-weight: 300;
 	margin-bottom: 50px;
 }
@@ -159,14 +159,14 @@ header {
 }
 
 #sub-tit {
-	font-family: Century Gothic;
+	font-family: 'CenturyGothic' !important;
 	font-size: 70px;
 	color: white;
 	margin-right: 70%;
 }
 
 .sub-txt {
-	font-family: Century Gothic;
+	font-family: 'CenturyGothic' !important;
 	font-size: 30px;
 	color: white;
 }
@@ -183,7 +183,7 @@ header {
 }
 
 .infotext {
-	font-family: Century Gothic;
+	font-family: 'CenturyGothic' !important;
 	font-size: 35px;
 	color: white;
 	padding: 30px 30px 30px 30px;
@@ -248,7 +248,7 @@ header {
 /* FOOTER */
 footer {
 	width: 100%;
-	font-family: Century Gothic;
+	font-family: 'CenturyGothic' !important;
 }
 
 footer a {
@@ -281,12 +281,12 @@ footer a {
 }
 
 .footer-slimtxt {
-	font-family: Century Gothic;
+	font-family: 'CenturyGothic' !important;
 }
 
 .footer-tit {
 	color: black;
-	font-family: Bahnschrift;
+	font-family: 'Bahnschrift' !important;
 }
 
 /* HOMEPAGE */
@@ -305,13 +305,13 @@ a {
 }
 
 .contactus-infotext1 {
-	font-family: Century Gothic;
+	font-family: 'CenturyGothic' !important;
 	font-size: 40px;
 	color: aliceblue;
 }
 
 .contactus-infotext2 {
-	font-family: Century Gothic;
+	font-family: 'CenturyGothic' !important;
 	font-size: 20px;
 	color: aliceblue;
 }
@@ -329,7 +329,7 @@ a {
 	text-align: center;
 	margin-bottom: 10%;
 	color: aliceblue;
-	font-family: Century Gothic;
+	font-family: 'CenturyGothic' !important;
 }
 
 .ele-table {
@@ -353,13 +353,13 @@ a {
 
 .details-head {
 	font-size: 50px;
-	font-family: Bahnschrift;
+	font-family: 'Bahnschrift' !important;
 	font-weight: bold;
 }
 
 .details-txt {
 	font-size: 20px;
-	font-family: Century Gothic;
+	font-family: 'CenturyGothic' !important;
 }
 
 #music-logo {
@@ -388,7 +388,7 @@ a {
 /* Storyline */
 .story-subtitle {
 	text-align: center;
-	font-family: Century Gothic;
+	font-family: 'CenturyGothic' !important;
 	font-size: 60px;
 	font-weight: bold;
 	color: white;
@@ -398,7 +398,7 @@ a {
 
 .storytext {
 	text-align: left;
-	font-family: Century Gothic;
+	font-family: 'CenturyGothic' !important;
 	font-size: 35px;
 	color: white;
 	margin: 50px 15% 100px 15%;
@@ -421,7 +421,7 @@ a {
 	font-size: 50px;
 	color: aliceblue;
 	padding-top: 25%;
-	font-family: Bahnschrift;
+	font-family: 'Bahnschrift' !important;
 	font-weight: bold;
 }
 
@@ -442,25 +442,25 @@ a {
 }
 
 .booking-title {
-	font-family: Century Gothic;
+	font-family: 'CenturyGothic' !important;
 }
 
 .booking-subtitle {
-	font-family: Century Gothic;
+	font-family: 'CenturyGothic' !important;
 }
 
 .booking-result {
-	font-family: Century Gothic;
+	font-family: 'CenturyGothic' !important;
 	font-weight: 600;
 }
 
 .booking-btn {
 	margin-left: 10px;
-	font-family: Bahnschrift;
+	font-family: 'Bahnschrift' !important;
 }
 
 .booking-txt {
-	font-family: Bahnschrift;
+	font-family: 'Bahnschrift' !important;
 }
 
 #booking-map {
