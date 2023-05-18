@@ -269,6 +269,7 @@ footer a {
 .footer_socialtext {
 	display: inline;
 	font-size: 20px;
+	white-space: nowrap;
 }
 
 #footer_iglogo,
@@ -277,7 +278,13 @@ footer a {
 }
 
 #footer_maillogo {
-	width: 12%;
+	width: 10%;
+}
+
+@media screen and (max-width: 800px) {
+	#footer_maillogo {
+		width: 25px;
+	}
 }
 
 .footer-slimtxt {
