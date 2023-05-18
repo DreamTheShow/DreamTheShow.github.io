@@ -112,8 +112,7 @@ header {
 	text-align: center;
 	color: aliceblue;
 	font-size: 30px;
-	font-family: BAHNSCHRIFT;
-	src: url(BAHNSCHRIFT.TTF);
+	font-family: Bahnschrift;
 	font-weight: 300;
 	margin-bottom: 50px;
 }
@@ -122,8 +121,7 @@ header {
 	text-align: center;
 	color: aliceblue;
 	font-size: 50px;
-	font-family: BAHNSCHRIFT;
-	src: url(BAHNSCHRIFT.TTF);
+	font-family: Bahnschrift;
 	font-weight: 300;
 	margin-bottom: 50px;
 }
@@ -138,6 +136,12 @@ header {
 	font-size: 70px;
 	color: white;
 	margin-right: 70%;
+}
+
+.sub-txt {
+	font-family: Century Gothic;
+	font-size: 30px;
+	color: white;
 }
 
 .details-table {
@@ -170,13 +174,14 @@ header {
 	padding-bottom: 20px;
 	padding-right: 20px;
 	padding-left: 10px;
-	width: 750px;
-	height: 800px;
+	width: 550px;
+	height: 700px;
 	border: 0;
 }
 
 @media screen and (max-width: 1300px){
 	#map {
+		width: 6500px;
 		height: 500px;
 	}
 	
@@ -232,8 +237,7 @@ footer a {
 
 .footer-tit{
 	color: black;
-	font-family: BAHNSCHRIFT;
-	src: url(BAHNSCHRIFT.TTF);
+	font-family: Bahnschrift;
 }
 /* HOMEPAGE */
 
@@ -299,8 +303,7 @@ a {
 
 .details-head {
 	font-size: 50px;
-	font-family: BAHNSCHRIFT;
-	src: url(BAHNSCHRIFT.TTF);
+	font-family: Bahnschrift;
 	font-weight: bold;
 }
 
@@ -365,8 +368,7 @@ a {
 	font-size: 50px;
 	color: aliceblue;
 	padding-top: 25%;
-	font-family: BAHNSCHRIFT;
-	src: url(BAHNSCHRIFT.TTF);
+	font-family: Bahnschrift;
 	font-weight: bold;
 }
 
@@ -401,13 +403,11 @@ a {
 
 .booking-btn {
 	margin-left: 10px;
-	font-family: BAHNSCHRIFT;
-	src: url(BAHNSCHRIFT.TTF);
+	font-family: Bahnschrift;
 }
 
 .booking-txt {
-	font-family: BAHNSCHRIFT;
-	src: url(BAHNSCHRIFT.TTF);
+	font-family: Bahnschrift;
 }
 
 #booking-map {
