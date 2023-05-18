@@ -344,6 +344,13 @@ a {
 	margin-right: 20%;
 }
 
+@media screen and (max-width: 1024px) {
+	.ele-table {
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+}
+
 .design-infotext1 {
 	font-size: 40px;
 	color: #c0dcf6;
@@ -382,8 +389,9 @@ a {
 #animation,
 #effects,
 #music {
-	width: 100%;
-	min-width: 400px;
+	width:100% !important;
+    height:100% !important;
+    display:block;
 }
 
 .design-elements-img {
@@ -424,7 +432,7 @@ a {
 	margin-right: 25%;
 }
 
-.crew-title {
+.crew-name {
 	font-size: 50px;
 	color: aliceblue;
 	padding-top: 25%;
@@ -432,10 +440,41 @@ a {
 	font-weight: bold;
 }
 
+.crew-title {
+	font-size: 25px;
+	font-family: 'CenturyGothic';
+	font-weight: normal;
+	font-style: oblique;
+}
+
+@media screen and (max-width: 1200px) {
+	.crew-title {
+		font-size: 18px;
+	}
+
+	.crew-name {
+		font-size: 30px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.crew-title {
+		font-size: 10px;
+	}
+
+	.crew-name {
+		font-size: 20px;
+	}
+}
 
 .crew-img {
 	width: 400px;
 	height: auto;
+}
+
+.responsive {
+	width: 100%;
+  	height: auto;
 }
 
 .members-txt {
