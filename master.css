@@ -65,6 +65,16 @@
 		url('fonts/Bahnschrift.svg#Bahnschrift') format('svg');
 	/*IE og iOS earlier than version 5*/
 
+	font-family: Century Gothic;
+	src: url('fonts/CenturyGothic.eot') format('embedded-opentype');
+	/* IE9 + later */
+	src: url('fonts/CenturyGothic.ttf') format('truetype'),
+	/* Safari og iOS, Chrome, Android, Firefox and Opera except Opera Mini  */
+		url('fonts/CenturyGothic.woff') format('woff'),
+	/* Newer browsers */
+		url('fonts/CenturyGothic.svg#Century Gothic') format('svg');
+	/*IE og iOS earlier than version 5*/
+
 }
 
 .section-title {
