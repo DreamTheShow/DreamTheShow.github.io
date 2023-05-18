@@ -53,6 +53,12 @@
 .textdesign {
 	color: aliceblue;
 }
+
+@font-face {
+	font-family: Bahnschrift;
+	src: url(fonts/Bahnschrift.svg#Bahnschrift) format('svg');
+}
+
 .section-title {
   text-align: left;
   font-family: Century Gothic;
@@ -113,7 +119,6 @@ header {
 	color: aliceblue;
 	font-size: 30px;
 	font-family: Bahnschrift;
-	src: url(fonts/BAHNSCHRIFT.TTF) format('truetype');
 	font-weight: 300;
 	margin-bottom: 50px;
 }
@@ -123,7 +128,6 @@ header {
 	color: aliceblue;
 	font-size: 50px;
 	font-family: Bahnschrift;
-	src: url(fonts/BAHNSCHRIFT.TTF) format('truetype');
 	font-weight: 300;
 	margin-bottom: 50px;
 }
@@ -259,7 +263,6 @@ footer a {
 .footer-tit{
 	color: black;
 	font-family: Bahnschrift;
-	src: url(fonts/BAHNSCHRIFT.TTF) format('truetype');
 }
 /* HOMEPAGE */
 
@@ -326,7 +329,6 @@ a {
 .details-head {
 	font-size: 50px;
 	font-family: Bahnschrift;
-	src: url(fonts/BAHNSCHRIFT.TTF) format('truetype');
 	font-weight: bold;
 }
 
@@ -392,7 +394,6 @@ a {
 	color: aliceblue;
 	padding-top: 25%;
 	font-family: Bahnschrift;
-	src: url(fonts/BAHNSCHRIFT.TTF) format('truetype');
 	font-weight: bold;
 }
 
@@ -428,12 +429,10 @@ a {
 .booking-btn {
 	margin-left: 10px;
 	font-family: Bahnschrift;
-	src: url(fonts/BAHNSCHRIFT.TTF) format('truetype');
 }
 
 .booking-txt {
 	font-family: Bahnschrift;
-	src: url(fonts/BAHNSCHRIFT.TTF) format('truetype');
 }
 
 #booking-map {
