@@ -1,5 +1,14 @@
 @charset "utf-8";
 /* CSS Document */
+
+/* FOR ALL */
+.anchor {
+    display: block;
+    position: relative;
+    top: -100px;
+    visibility: hidden;
+}
+
 #toTopBtn {
      position: fixed;
     bottom: 26px;
@@ -60,6 +69,7 @@
   min-height: 100%;
 	margin-bottom: -6px;
 }
+/* FOR ALL - END */
 
 /* HEADER */
 header {
@@ -67,8 +77,9 @@ header {
 	z-index:9999999;
 }
 
-.header-item{
+.header-item {
 	font-family: Century Gothic;
+	white-space: nowrap;
 }
 
 #header_icon {
@@ -100,21 +111,24 @@ header {
 .homepage_story1 {
 	text-align: center;
 	color: aliceblue;
-	font-size: 40px;
-	margin-bottom: 100px;
+	font-size: 30px;
+	font-family: Bahnschrift;
+	font-weight: 300;
+	margin-bottom: 50px;
 }
 
 .homepage_story2 {
 	text-align: center;
 	color: aliceblue;
-	font-size: 70px;
-	margin-bottom: 300px;
+	font-size: 50px;
+	font-family: Bahnschrift;
+	font-weight: 300;
+	margin-bottom: 50px;
 }
 
 /* Section 2: DETAILS */
 #details {
 	margin: 20px 15% 20px 15%;
-	background: rgba(87,108,138,0.4)
 }
 
 #sub-tit {
@@ -122,6 +136,13 @@ header {
 	font-size: 70px;
 	color: white;
 	margin-right: 70%;
+}
+
+.details-table {
+	text-align: center;
+	margin-bottom: 10%;
+	color: aliceblue;
+	background-color: rgba(37,47,63,0.8);
 }
 
 .infotext h3 {
@@ -135,10 +156,28 @@ header {
 	padding: 30px 30px 30px 30px;
 }
 
+.map-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
 #map {
 	text-align: center;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 20px;
+	padding-left: 10px;
+	width: 750px;
+	height: 800px;
+	border: 0;
+}
+
+@media screen and (max-width: 1300px){
+	#map {
+		height: 500px;
+	}
+	
 }
 
 /* Section 3 */
@@ -146,28 +185,15 @@ header {
   position: relative;
   width: 100%;
   overflow: hidden;
-  padding-top: 5%;
-  padding-bottom: 5%;
-  /* 16:9 Aspect Ratio */
-}
-
-.responsive-iframe {
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
-  border: none;
-}
-
-.youtube {
-	text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* FOOTER */
 footer {
 	width: 100%;
+	font-family: Century Gothic;
 }
 
 footer a {
@@ -204,6 +230,7 @@ footer a {
 
 .footer-tit{
 	color: black;
+	font-family: Bahnschrift;
 }
 /* HOMEPAGE */
 
@@ -245,6 +272,7 @@ a {
 	text-align: center;
 	margin-bottom: 10%;
 	color: aliceblue;
+	font-family: Century Gothic;
 }
 
 .ele-table {
@@ -268,10 +296,13 @@ a {
 
 .details-head {
 	font-size: 50px;
+	font-family: Bahnschrift;
+	font-weight: bold;
 }
 
 .details-txt {
-	font-size: 30px;
+	font-size: 20px;
+	font-family: Century Gothic;
 }
 
 #music-logo {
@@ -285,6 +316,7 @@ a {
 
 #dance, #animation, #effects, #music {
 	width: 100%;
+	min-width: 400px;
 }
 
 .design-elements-img {
@@ -329,6 +361,8 @@ a {
 	font-size: 50px;
 	color: aliceblue;
 	padding-top: 25%;
+	font-family: Bahnschrift;
+	font-weight: bold;
 }
 
 
@@ -355,8 +389,18 @@ a {
 	font-family: Century Gothic;
 }
 
+.booking-result {
+	font-family: Century Gothic;
+	font-weight: 600;
+}
+
 .booking-btn {
 	margin-left: 10px;
+	font-family: Bahnschrift;
+}
+
+.booking-txt {
+	font-family: Bahnschrift;
 }
 
 #booking-map {
