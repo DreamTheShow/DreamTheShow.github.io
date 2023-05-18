@@ -112,7 +112,8 @@ header {
 	text-align: center;
 	color: aliceblue;
 	font-size: 30px;
-	font-family: Bahnschrift;
+	font-family: BAHNSCHRIFT;
+	src: url(BAHNSCHRIFT.TTF);
 	font-weight: 300;
 	margin-bottom: 50px;
 }
@@ -121,7 +122,8 @@ header {
 	text-align: center;
 	color: aliceblue;
 	font-size: 50px;
-	font-family: Bahnschrift;
+	font-family: BAHNSCHRIFT;
+	src: url(BAHNSCHRIFT.TTF);
 	font-weight: 300;
 	margin-bottom: 50px;
 }
@@ -230,7 +232,8 @@ footer a {
 
 .footer-tit{
 	color: black;
-	font-family: Bahnschrift;
+	font-family: BAHNSCHRIFT;
+	src: url(BAHNSCHRIFT.TTF);
 }
 /* HOMEPAGE */
 
@@ -296,7 +299,8 @@ a {
 
 .details-head {
 	font-size: 50px;
-	font-family: Bahnschrift;
+	font-family: BAHNSCHRIFT;
+	src: url(BAHNSCHRIFT.TTF);
 	font-weight: bold;
 }
 
@@ -361,7 +365,8 @@ a {
 	font-size: 50px;
 	color: aliceblue;
 	padding-top: 25%;
-	font-family: Bahnschrift;
+	font-family: BAHNSCHRIFT;
+	src: url(BAHNSCHRIFT.TTF);
 	font-weight: bold;
 }
 
@@ -396,11 +401,13 @@ a {
 
 .booking-btn {
 	margin-left: 10px;
-	font-family: Bahnschrift;
+	font-family: BAHNSCHRIFT;
+	src: url(BAHNSCHRIFT.TTF);
 }
 
 .booking-txt {
-	font-family: Bahnschrift;
+	font-family: BAHNSCHRIFT;
+	src: url(BAHNSCHRIFT.TTF);
 }
 
 #booking-map {
