@@ -3,51 +3,51 @@
 
 /* FOR ALL */
 .anchor {
-    display: block;
-    position: relative;
-    top: -100px;
-    visibility: hidden;
+	display: block;
+	position: relative;
+	top: -100px;
+	visibility: hidden;
 }
 
 #toTopBtn {
-     position: fixed;
-    bottom: 26px;
-    right: 39px;
-    z-index: 98;
-    padding: 21px;
-    background-color: #05152c;
+	position: fixed;
+	bottom: 26px;
+	right: 39px;
+	z-index: 98;
+	padding: 21px;
+	background-color: #05152c;
 }
 
 .js .cd-top--fade-out {
-    opacity: .5;
+	opacity: .5;
 }
 
 .js .cd-top--is-visible {
-    visibility: visible;
-    opacity: 1;
+	visibility: visible;
+	opacity: 1;
 }
 
 .js .cd-top {
-    visibility: hidden;
-    opacity: 0;
-    transition: opacity .3s,visibility .3s,background-color .3s;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity .3s, visibility .3s, background-color .3s;
 }
 
 .cd-top {
-    position: fixed;
-    bottom: 20px;
-    bottom: var(--cd-back-to-top-margin);
-    right: 20px;
-    right: var(--cd-back-to-top-margin);
-    display: inline-block;
-    height: 40px;
-    height: var(--cd-back-to-top-size);
-    width: 40px;
-    width: var(--cd-back-to-top-size);
-    box-shadow: 0 0 10px rgba(0,0,0,.05) !important;
-    background: url(https://res.cloudinary.com/dxfq3iotg/image/upload/v1571057658/cd-top-arrow.svg) no-repeat center 50%;
-    background-color: hsla(5,76%,62%,.8);
-    background-color: hsla(var(--cd-color-3-h),var(--cd-color-3-s),var(--cd-color-3-l),0.8);
+	position: fixed;
+	bottom: 20px;
+	bottom: var(--cd-back-to-top-margin);
+	right: 20px;
+	right: var(--cd-back-to-top-margin);
+	display: inline-block;
+	height: 40px;
+	height: var(--cd-back-to-top-size);
+	width: 40px;
+	width: var(--cd-back-to-top-size);
+	box-shadow: 0 0 10px rgba(0, 0, 0, .05) !important;
+	background: url(https://res.cloudinary.com/dxfq3iotg/image/upload/v1571057658/cd-top-arrow.svg) no-repeat center 50%;
+	background-color: hsla(5, 76%, 62%, .8);
+	background-color: hsla(var(--cd-color-3-h), var(--cd-color-3-s), var(--cd-color-3-l), 0.8);
 }
 
 .textdesign {
@@ -56,31 +56,41 @@
 
 @font-face {
 	font-family: Bahnschrift;
-	src: url(fonts/Bahnschrift.svg#Bahnschrift) format('svg');
+	src: url('fonts/Bahnschrift.eot') format('embedded-opentype');
+	/* IE9 + later */
+	src: url('fonts/Bahnschrift.ttf') format('truetype'),
+	/* Safari og iOS, Chrome, Android, Firefox and Opera except Opera Mini  */
+		url('fonts/Bahnschrift.woff') format('woff'),
+	/* Newer browsers */
+		url('fonts/Bahnschrift.svg#Bahnschrift') format('svg');
+	/*IE og iOS earlier than version 5*/
+
 }
 
 .section-title {
-  text-align: left;
-  font-family: Century Gothic;
-  font-size: 70px;
-  font-weight: bold;
-  color: white;
+	text-align: left;
+	font-family: Century Gothic;
+	font-size: 70px;
+	font-weight: bold;
+	color: white;
 	margin-bottom: 3%;
 	margin-left: 15%;
 }
 
 #myVideo {
-  right: 0;
-  width: 100%;
-  min-height: 100%;
+	right: 0;
+	width: 100%;
+	min-height: 100%;
 	margin-bottom: -6px;
 }
+
 /* FOR ALL - END */
 
 /* HEADER */
 header {
-	position: sticky; top: 0;
-	z-index:9999999;
+	position: sticky;
+	top: 0;
+	z-index: 9999999;
 }
 
 .header-item {
@@ -102,8 +112,8 @@ header {
 }
 
 .backgroundimage {
-  background-image: url("images/webbackground_new2.png");
-  background-size: 100%;
+	background-image: url("images/webbackground_new2.png");
+	background-size: 100%;
 }
 
 /* Section 1: STORY */
@@ -154,7 +164,7 @@ header {
 	text-align: center;
 	margin-bottom: 10%;
 	color: aliceblue;
-	background-color: rgba(37,47,63,0.8);
+	background-color: rgba(37, 47, 63, 0.8);
 }
 
 .infotext h3 {
@@ -186,11 +196,12 @@ header {
 	border: 0;
 }
 
-@media screen and (max-width: 1300px){
+@media screen and (max-width: 1300px) {
 	#map {
 		width: 400px;
 		height: 550px;
 	}
+
 	.sub-txt {
 		font-size: 25px;
 	}
@@ -200,26 +211,27 @@ header {
 	}
 
 	.infotext {
-		padding: 0 0 0 10px; /* For sub-tit */
+		padding: 0 0 0 10px;
+		/* For sub-tit */
 	}
 }
 
-@media screen and (max-width: 1020px){
+@media screen and (max-width: 1020px) {
 	#map {
 		width: 6500px;
 		height: 500px;
 	}
-	
+
 }
 
 /* Section 3 */
 .youtube {
-  position: relative;
-  width: 100%;
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 /* FOOTER */
@@ -244,26 +256,28 @@ footer a {
 }
 
 .footer_socialtext {
-  display: inline;
+	display: inline;
 	font-size: 20px;
 }
 
-#footer_iglogo, #footer_fblogo {
-  width: 10%;
+#footer_iglogo,
+#footer_fblogo {
+	width: 10%;
 }
 
 #footer_maillogo {
-  width: 12%;
+	width: 12%;
 }
 
-.footer-slimtxt{
+.footer-slimtxt {
 	font-family: Century Gothic;
 }
 
-.footer-tit{
+.footer-tit {
 	color: black;
 	font-family: Bahnschrift;
 }
+
 /* HOMEPAGE */
 
 /* Contact Us */
@@ -321,7 +335,7 @@ a {
 	margin-bottom: 10%;
 }
 
-#design{
+#design {
 	padding-top: 20%;
 	color: antiquewhite;
 }
@@ -338,7 +352,7 @@ a {
 }
 
 #music-logo {
-    width: 5%;
+	width: 5%;
 }
 
 #Details {
@@ -346,7 +360,10 @@ a {
 	margin-bottom: 15%;
 }
 
-#dance, #animation, #effects, #music {
+#dance,
+#animation,
+#effects,
+#music {
 	width: 100%;
 	min-width: 400px;
 }
@@ -359,28 +376,28 @@ a {
 
 /* Storyline */
 .story-subtitle {
-  text-align: center;
-  font-family: Century Gothic;
-  font-size: 60px;
-  font-weight: bold;
-  color: white;
-  margin-top: 5%;
-  margin-bottom: 5%;
+	text-align: center;
+	font-family: Century Gothic;
+	font-size: 60px;
+	font-weight: bold;
+	color: white;
+	margin-top: 5%;
+	margin-bottom: 5%;
 }
 
 .storytext {
-	text-align:left;
-  font-family: Century Gothic;
-  font-size: 35px;
-  color: white;
+	text-align: left;
+	font-family: Century Gothic;
+	font-size: 35px;
+	color: white;
 	margin: 50px 15% 100px 15%;
 }
 
 .storyline_img {
 	display: block;
-  	margin-left: auto;
- 	margin-right: auto;
- 	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
 }
 
 /* Crew */
@@ -470,14 +487,14 @@ a {
 .img-gallery img:hover {
 	transform: scale(0.9);
 	border-radius: 20px;
-	box-shadow: 0 32px 75px rgba(68,77,136, 0.2);
+	box-shadow: 0 32px 75px rgba(68, 77, 136, 0.2);
 }
 
 .full-img {
 	z-index: 100;
 	width: 100%;
 	height: 100vh;
-	background: rgba(0,0,0,0.9);
+	background: rgba(0, 0, 0, 0.9);
 	position: fixed;
 	top: 0;
 	left: 0;
