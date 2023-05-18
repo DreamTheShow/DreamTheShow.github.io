@@ -163,6 +163,7 @@ header {
 }
 
 .map-container {
+	width: 100%;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -180,6 +181,24 @@ header {
 }
 
 @media screen and (max-width: 1300px){
+	#map {
+		width: 400px;
+		height: 550px;
+	}
+	.sub-txt {
+		font-size: 25px;
+	}
+
+	#sub-tit {
+		font-size: 50px;
+	}
+
+	.infotext {
+		padding: 0 0 0 10px;
+	}
+}
+
+@media screen and (max-width: 1020px){
 	#map {
 		width: 6500px;
 		height: 500px;
