@@ -2,6 +2,10 @@
 /* CSS Document */
 
 /* FOR ALL */
+html {
+	scroll-behavior: smooth;
+}
+
 .anchor {
 	display: block;
 	position: relative;
